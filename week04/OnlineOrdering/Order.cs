@@ -1,4 +1,4 @@
-using Systeusing System.Collections.Generic;
+using System.Collections.Generic;
 
 public class Order
 {
@@ -54,13 +54,5 @@ public class Order
     public string GetShippingLabel()
     {
         return "Shipping Label:\n" + _customer.GetShippingInfo();
-    }
-}m;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
     }
 }

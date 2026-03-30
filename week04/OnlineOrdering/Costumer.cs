@@ -23,10 +23,3 @@ using System;public class Customer
     }
 }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
-    }
-}
